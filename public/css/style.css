@@ -793,7 +793,7 @@ body {
   padding: 0 8rem;
 }
 
-.footer {
+/* .footer {
   background-color: #f7f7f7;
   padding: 6rem 4rem 3rem 4rem;
   font-size: 1.4rem;
@@ -869,7 +869,7 @@ body {
     -ms-flex-direction: column;
     flex-direction: column;
   }
-}
+} */
 .nav--tours {
   -webkit-box-flex: 0;
   -ms-flex: 0 1 40%;

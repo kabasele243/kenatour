@@ -1,8 +1,8 @@
 import logo from '../../../src/logo.svg';
 
-const user = {};
+const user = null;
 function Header() {
-   console.log(user)
+   
   return (
     <div className="header">
          {/* {user ? ( ) : ( )} */}
