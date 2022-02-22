@@ -34,8 +34,10 @@ app.use(cors());
 // Access-Control-Allow-Origin *
 // api.natours.com, front-end natours.com
 // app.use(cors({
-//   origin: 'https://www.natours.com'
+//   origin: 'https://www.kenatour.com'
 // }))
+
+app.use(bodyParser.json());
 
 app.options('*', cors());
 // app.options('/api/v1/tours/:id', cors());
